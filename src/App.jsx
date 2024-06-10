@@ -1,4 +1,4 @@
-import Header from "./sections/header.jsx"
+import Header from "./sections/Header"
 
 
 function App() {

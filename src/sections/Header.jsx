@@ -1,5 +1,7 @@
 import React from 'react';
 import { CiSearch } from 'react-icons/ci'
+import { Button } from "@/components/ui/button"
+
 
 const Header = () => {
   return (
@@ -13,7 +15,7 @@ const Header = () => {
             searchbar
         </div>
         <div className="hidden sm:block">
-            button
+        <Button>Click me</Button>
         </div> 
         <div className="hidden sm:block">
         alarm icon/notification
